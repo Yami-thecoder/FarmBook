@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore database files
+*.sqlite3
+instance/
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore compiled Python files
+*.py[cod]
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Streamlit temporary files
+.streamlit/
+
+# Ignore Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Ignore uploaded files and user-generated content
+uploads/
