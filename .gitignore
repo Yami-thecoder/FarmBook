@@ -1,23 +1,27 @@
 # Virtual environment
 venv/
 .env
+
+# Python cache files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+app/__pycache__/
+streamlit_ui/__pycache__/
 
 # Ignore database files
 *.sqlite3
 instance/
 
 # Ignore logs
-*.log
 logs/
+*.log
 
 # Ignore compiled Python files
 *.py[cod]
 
-# Ignore system files
+# System-specific files
 .DS_Store
 Thumbs.db
 
