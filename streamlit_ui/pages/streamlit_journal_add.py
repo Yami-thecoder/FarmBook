@@ -62,7 +62,7 @@ season = st.text_input("Season")
 farm_location = st.text_input("Farm Location")
 sowing_date = st.date_input("Sowing Date", value=None)
 harvest_date = st.date_input("Harvest Date", value=None)
-harvest_date = str(harvest_date) if harvest_date else None  # ✅ Fix None handling
+harvest_date = harvest_date if harvest_date else None
 yield_amount = st.number_input("Yield (kg)", min_value=0.0, step=0.1, format="%.1f")
 sold_amount = st.number_input("Sold Amount (kg)", min_value=0.0, step=0.1, format="%.1f")
 unit_price = st.number_input("Unit Price (Rs. per kg)", min_value=0.0, step=0.1, format="%.2f")
